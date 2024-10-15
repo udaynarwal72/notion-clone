@@ -6,7 +6,9 @@ const Heros = () => {
             <div className='flex flex-col items-center justify-center max-w-full'>
                 <div className='relative w-full sm:w-[350px] sm:h-[350px] md:h-[500px] md:w-[400px]'>
                     <Image src="/jotion-hero.png" fill
-                        className='object-contain' alt="jotion hero" />
+                        className='object-contain dark:hidden' alt="jotion hero" />
+                    <Image src="/jotion-hero.png" fill
+                        className='object-contain dark:hidden' alt="jotion hero" />
                 </div>
             </div>
 
